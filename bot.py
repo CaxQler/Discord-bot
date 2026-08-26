@@ -96,4 +96,4 @@ async def obfuscate(interaction: discord.Interaction, file: discord.Attachment):
         await interaction.followup.send(f"❌ An error occurred: {str(e)}", ephemeral=True)
 
 # รันบอทผ่าน Environment Variable (ปลอดภัยสำหรับ Cloud)
-bot.run(os.getenv("MTU0MjEzNTM3MzA0MjU0ODgxNw.GnKgsx.YNeDE6wdmk_2l4fwt_qh593PspTo3iRnu0nR2w"))
+bot.run(os.getenv("DISCORD_TOKEN"))
